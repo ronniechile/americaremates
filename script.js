@@ -103,9 +103,3 @@ $(split.chars).each(function(i){
 		repeatDelay: 10
 	});
 });
-
-$('.txt').html(function(i, html) {
-  var chars = $.trim(html).split("");
-
-  return '<span>' + chars.join('</span><span>') + '</span>';
-});
